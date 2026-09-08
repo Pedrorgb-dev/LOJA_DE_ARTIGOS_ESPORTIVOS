@@ -1,0 +1,186 @@
+body {
+    
+    background: linear-gradient(grey,#39FF14);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 300px;
+}
+input {
+    font-size: larger;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    background: linear-gradient(to bottom, #060706, #00ff1a); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .login-card {
+    background-color: rgba(75, 212, 104, 0.9); 
+    padding: 40px 30px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 380px; 
+    text-align: center;
+  }
+  
+  
+  .login-card h2 {
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px; 
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  /* Botão de login */
+  .btn-login {
+    background-color: #0d752c; 
+    color: #080707;
+    border: 1px solid #999;
+    padding: 8px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .btn-login:hover {
+    background-color: #d19bed; 
+  }
+ 
+  .container {
+    display: flex;         
+  gap: 24px;             
+  justify-content: flex-start; 
+  flex-wrap: wrap;       
+  padding: 20px;
+}
+.card {
+    width: 300px;
+    background-color: #0d6601;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: #181515;
+  }
+  
+  .card-content p {
+    font-size: 0.95rem;
+    color: #131111;
+    margin-bottom: 16px;
+  }
+  
+  .card-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #532828;
+    color: #020f07;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .card-container {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;              
+    padding: 20px;
+  }
+  .Produtos {
+    margin-top: 100px;
+  }
+  select {
+    margin-top: 50px;
+    border-radius: 100px;
+    color: greenyellow;
+   background-color:  green;
+  }
+  option {
+    margin-top: 50px;
+  }
+  .produtos {
+    text-align: center;
+
+  }
+  
+  .produtos select {
+   padding: 8px; 
+    
+  }
+  .valor {
+    margin-top: 50px;
+  }
+  .valor2 {
+    margin-left: -85px;
+    text-align: center;
+  }
+ .produtos3 {
+  text-align: center;
+  
+ } 
+ .tabela {
+  margin: 0 auto;
+ }
+ .button {
+  margin-top: 30px;
+  color: greenyellow;
+  background-color:  green;
+  border-radius: 100px;
+ }
